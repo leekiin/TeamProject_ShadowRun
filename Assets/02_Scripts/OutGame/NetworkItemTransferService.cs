@@ -6,7 +6,10 @@ public class NetworkItemTransferService
     public ItemModel PickupItemSafely(string uniqueId, string itemId, ShopItemSlotType slotType, int amount = -1)
     {
         var targetList = GetTargetList(slotType);
-        if (targetList == null) return null;
+        if (targetList == null)
+        {
+            return null;
+        }
 
         for (int i = 0; i < targetList.Count; i++)
         {
@@ -32,6 +35,7 @@ public class NetworkItemTransferService
                 }
             }
         }
+
         return null;
     }
 
@@ -60,6 +64,7 @@ public class NetworkItemTransferService
                     targetList.Add(itemModel);
                     return 0; 
                 }
+
                 return itemModel.CurrentStackCount;
             }
             else
@@ -75,6 +80,7 @@ public class NetworkItemTransferService
                     targetList.Add(splitItem);
                     itemModel.CurrentStackCount -= 1;
                 }
+
                 return itemModel.CurrentStackCount;
             }
         }
@@ -88,9 +94,12 @@ public class NetworkItemTransferService
                     int addAmount = Mathf.Min(space, itemModel.CurrentStackCount);
 
                     existItem.CurrentStackCount += addAmount;
-                    itemModel.CurrentStackCount -= addAmount; 
+                    itemModel.CurrentStackCount -= addAmount;
 
-                    if (itemModel.CurrentStackCount <= 0) break;
+                    if (itemModel.CurrentStackCount <= 0)
+                    {
+                        break;
+                    }
                 }
             }
 
@@ -104,6 +113,7 @@ public class NetworkItemTransferService
                     ItemId = itemModel.ItemId,
                     CurrentStackCount = addAmount
                 };
+
                 targetList.Add(splitItem);
                 itemModel.CurrentStackCount -= addAmount; 
             }
@@ -114,7 +124,10 @@ public class NetworkItemTransferService
 
     private List<ItemModel> GetTargetList(ShopItemSlotType slotType)
     {
-        if (PlayerStatus.Instance == null || PlayerStatus.Instance.Model == null) return null;
+        if (PlayerStatus.Instance == null || PlayerStatus.Instance.Model == null)
+        {
+            return null;
+        }
 
         if (slotType == ShopItemSlotType.Inventory)
         {

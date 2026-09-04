@@ -110,6 +110,7 @@ public class StashUI : UIBase
         if (_stashVm == null || PlayerStatus.Instance == null) return;
 
         var stashItems = PlayerStatus.Instance.Model.StashItems;
+
         if (stashItems == null)
         {
             stashItems = new List<ItemModel>();
@@ -258,10 +259,16 @@ public class StashUI : UIBase
 
         if (_cachedHoldingItemModel == null && !clickedSlot.IsSlotEmpty)
         {
-            int pickupAmount = -1; 
+            int pickupAmount = -1;
 
-            if (isCtrlInput) pickupAmount = 1;
-            else if (isShiftInput) pickupAmount = Mathf.CeilToInt(clickedSlot.ItemStackCount / 2.0f);
+            if (isCtrlInput)
+            {
+                pickupAmount = 1;
+            }
+            else if (isShiftInput)
+            {
+                pickupAmount = Mathf.CeilToInt(clickedSlot.ItemStackCount / 2.0f);
+            }
 
             _cachedHoldingItemModel = NetworkManager.Inst.TransferService.PickupItemSafely(clickedSlot.ItemUniqueId, clickedSlot.ItemDataId, clickedSlot.SlotType, pickupAmount);
 
@@ -299,7 +306,10 @@ public class StashUI : UIBase
 
     private void UpdateDragCursor()
     {
-        if (_cachedHoldingItemModel == null) return;
+        if (_cachedHoldingItemModel == null)
+        {
+            return;
+        }
 
         DragSlotUI.gameObject.SetActive(true);
         _dragSlotVm.ItemDataId = _cachedHoldingItemModel.ItemId;

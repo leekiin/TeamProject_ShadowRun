@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Project-Shadow-Run
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b36ea86df1649f94a871838495454d1f, type: 2}
+  m_sharedMaterial: {fileID: 1895393191169578827, guid: b36ea86df1649f94a871838495454d1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -204,8 +204,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Load Game
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b36ea86df1649f94a871838495454d1f, type: 2}
+  m_sharedMaterial: {fileID: 1895393191169578827, guid: b36ea86df1649f94a871838495454d1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -329,6 +329,7 @@ MonoBehaviour:
   Text_Title: {fileID: 8932847420769106395}
   Button_NewStart: {fileID: 2137244321312930534}
   Button_Load: {fileID: 4145764848552860079}
+  Button_EXIT: {fileID: 0}
 --- !u!1 &2716554519424189089
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,8 +472,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Game
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b36ea86df1649f94a871838495454d1f, type: 2}
+  m_sharedMaterial: {fileID: 1895393191169578827, guid: b36ea86df1649f94a871838495454d1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

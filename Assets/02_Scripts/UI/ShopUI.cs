@@ -37,11 +37,20 @@ public class ShopUI : UIBase
         Button_CloseSelf.onClick.RemoveAllListeners();
         Button_CloseSelf.onClick.AddListener(OnClick_CloseButton);
 
-        if (InventoryManager.Instance != null) InventoryManager.Instance.OnInventoryChanged += RefreshAllZones;
-        if (UIManager.Instance != null) UIManager.Instance.ClosePopupUI(UIType.ShopItemPopupUI);
+        if (InventoryManager.Instance != null)
+        {
+            InventoryManager.Instance.OnInventoryChanged += RefreshAllZones;
+        }
+
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.ClosePopupUI(UIType.ShopItemPopupUI);
+        }
 
         if (NetworkManager.Inst != null && NetworkManager.Inst.ShopService != null)
+        {
             NetworkManager.Inst.ShopService.RefreshStashData();
+        }
     }
 
     private void OnDisable()
@@ -52,22 +61,36 @@ public class ShopUI : UIBase
             _shopVm.PropertyChanged -= OnPropertyChanged_View;
         }
 
-        if (InventoryManager.Instance != null) InventoryManager.Instance.OnInventoryChanged -= RefreshAllZones;
-        if (UIManager.Instance != null) UIManager.Instance.ClosePopupUI(UIType.ShopItemPopupUI);
+        if (InventoryManager.Instance != null)
+        {
+            InventoryManager.Instance.OnInventoryChanged -= RefreshAllZones;
+        }
+
+        if (UIManager.Instance != null) 
+        {
+            UIManager.Instance.ClosePopupUI(UIType.ShopItemPopupUI);
+        }
 
         if (NetworkManager.Inst != null && NetworkManager.Inst.ShopService != null)
+        {
             NetworkManager.Inst.ShopService.SyncDataOnClose();
+        }
     }
 
     private void RefreshAllZones()
     {
-        if (_shopVm == null || InventoryManager.Instance == null) return;
+        if (_shopVm == null || InventoryManager.Instance == null)
+        {
+            return;
+        }
 
         var inventoryItems = InventoryManager.Instance.ItemList;
         LoadToSlots(inventoryItems, _shopVm.InventoryItemSlotList);
 
         if (PlayerStatus.Instance != null)
+        {
             LoadToSlots(PlayerStatus.Instance.Model.StashItems, _shopVm.StashItemSlotList);
+        }
     }
 
     private void LoadToSlots(IReadOnlyList<ItemModel> sourceList, List<ShopItemSlotViewModel> targetSlots)
@@ -96,7 +119,9 @@ public class ShopUI : UIBase
     private void Update()
     {
         if (_dragSlotVm != null && !_dragSlotVm.IsSlotEmpty)
+        {
             DragSlotUI.transform.position = Input.mousePosition;
+        }
     }
 
     private void OnPropertyChanged_View(object sender, PropertyChangedEventArgs e)
@@ -110,9 +135,16 @@ public class ShopUI : UIBase
                 if (_shopVm.HoveredItemId != null && _cachedHoldingItemModel == null)
                 {
                     var popupUI = UIManager.Instance.OpenPopupUI(UIType.ShopItemPopupUI) as ShopItemPopupUI;
-                    if (popupUI != null) popupUI.SetItemData(_shopVm.HoveredItemId);
+                    if (popupUI != null)
+                    {
+                        popupUI.SetItemData(_shopVm.HoveredItemId);
+                    }
                 }
-                else UIManager.Instance.ClosePopupUI(UIType.ShopItemPopupUI);
+                else
+                {
+                    UIManager.Instance.ClosePopupUI(UIType.ShopItemPopupUI);
+                }
+
                 break;
         }
     }
@@ -167,13 +199,22 @@ public class ShopUI : UIBase
             NetworkManager.Inst.TransferService.PlaceItemSafely(_cachedHoldingItemModel, _originSlotType);
         }
 
-        if (Lobby.Instance != null) Lobby.Instance.CloseCurrentTargetUI();
-        else UIManager.Instance.CloseContentUI(UIType.ShopUI);
+        if (Lobby.Instance != null)
+        {
+            Lobby.Instance.CloseCurrentTargetUI();
+        }
+        else
+        {
+            UIManager.Instance.CloseContentUI(UIType.ShopUI);
+        }
     }
 
     private void OnSlotClicked(ShopItemSlotViewModel clickedSlotVm, PointerEventData.InputButton button)
     {
-        if (button == PointerEventData.InputButton.Left) HandleLeftClick(clickedSlotVm);
+        if (button == PointerEventData.InputButton.Left)
+        {
+            HandleLeftClick(clickedSlotVm);
+        }
 
         if (_cachedHoldingItemModel != null)
         {

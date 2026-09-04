@@ -48,7 +48,10 @@ public class ShopItemPopupUI : UIBase
 
     private void UpdatePopupPosition()
     {
-        if (Mouse.current == null || _popupRectTransform == null) return;
+        if (Mouse.current == null || _popupRectTransform == null)
+        {
+            return;
+        }
 
         Vector2 mousePos = Mouse.current.position.ReadValue();
         Vector2 offset = new Vector2(10f, -10f);

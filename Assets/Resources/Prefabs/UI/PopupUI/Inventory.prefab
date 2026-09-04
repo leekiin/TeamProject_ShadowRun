@@ -372,7 +372,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 724c140c010ad194784a2c38a081c405, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b36ea86df1649f94a871838495454d1f, type: 2}
   m_sharedMaterial: {fileID: -1453816194433201877, guid: 724c140c010ad194784a2c38a081c405, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -439,7 +439,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1307897475089979286
@@ -659,8 +659,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 724c140c010ad194784a2c38a081c405, type: 2}
-  m_sharedMaterial: {fileID: -1453816194433201877, guid: 724c140c010ad194784a2c38a081c405, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1159,7 +1159,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 724c140c010ad194784a2c38a081c405, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b36ea86df1649f94a871838495454d1f, type: 2}
   m_sharedMaterial: {fileID: -1453816194433201877, guid: 724c140c010ad194784a2c38a081c405, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1226,7 +1226,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &3525533068964723325
@@ -1446,8 +1446,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 724c140c010ad194784a2c38a081c405, type: 2}
-  m_sharedMaterial: {fileID: -1453816194433201877, guid: 724c140c010ad194784a2c38a081c405, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1583,8 +1583,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Inventory
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 724c140c010ad194784a2c38a081c405, type: 2}
-  m_sharedMaterial: {fileID: -1453816194433201877, guid: 724c140c010ad194784a2c38a081c405, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b36ea86df1649f94a871838495454d1f, type: 2}
+  m_sharedMaterial: {fileID: 1895393191169578827, guid: b36ea86df1649f94a871838495454d1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1895,8 +1895,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 9999999999
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 724c140c010ad194784a2c38a081c405, type: 2}
-  m_sharedMaterial: {fileID: -1453816194433201877, guid: 724c140c010ad194784a2c38a081c405, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2672,8 +2672,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 724c140c010ad194784a2c38a081c405, type: 2}
-  m_sharedMaterial: {fileID: -1453816194433201877, guid: 724c140c010ad194784a2c38a081c405, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3605,6 +3605,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (16)
@@ -3707,6 +3715,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (5)
@@ -3809,6 +3825,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (15)
@@ -3911,6 +3935,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (19)
@@ -4013,6 +4045,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (18)
@@ -4115,6 +4155,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot
@@ -4334,6 +4382,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (3)
@@ -4436,6 +4492,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (13)
@@ -4538,6 +4602,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (25)
@@ -4640,6 +4712,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (14)
@@ -4742,6 +4822,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (6)
@@ -4961,6 +5049,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (27)
@@ -5063,6 +5159,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (23)
@@ -5165,6 +5269,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (2)
@@ -5267,6 +5379,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (17)
@@ -5369,6 +5489,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (26)
@@ -5471,6 +5599,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (10)
@@ -5573,6 +5709,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (9)
@@ -5675,6 +5819,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (24)
@@ -5777,6 +5929,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (20)
@@ -5879,6 +6039,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (28)
@@ -5981,6 +6149,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (8)
@@ -6083,6 +6259,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (4)
@@ -6185,6 +6369,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (12)
@@ -6412,6 +6604,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (7)
@@ -6514,6 +6714,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (11)
@@ -6616,6 +6824,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (22)
@@ -6718,6 +6934,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (21)
@@ -6820,6 +7044,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (29)
@@ -6922,6 +7154,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2039418329177938256, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7299718363239380858, guid: c214d85d2d37e6d49ba0d193d091c631, type: 3}
       propertyPath: m_Name
       value: Slot (1)

@@ -41,15 +41,22 @@ public class ShopItemSlotUI : UIBase, IPointerEnterHandler, IPointerExitHandler,
 
     private void UpdateSlotUI()
     {
-        if (DataManager.Instance == null) return;
+        if (DataManager.Instance == null)
+        {
+            return;
+        }
 
-        if (Text_ItemPrice == null || Image_ItemIcon == null) return;
+        if (Text_ItemPrice == null || Image_ItemIcon == null)
+        {
+            return;
+        }
 
         if (_slotVm.IsSlotEmpty == true)
         {
             Image_ItemIcon.enabled = false;  
             Text_ItemPrice.text = string.Empty;
             Text_StackCount.text = string.Empty;
+
             return;
         }
 
@@ -108,6 +115,9 @@ public class ShopItemSlotUI : UIBase, IPointerEnterHandler, IPointerExitHandler,
 
     private void OnDestroy()
     {
-        if (_slotVm != null) _slotVm.PropertyChanged -= OnSlotPropertyChanged;
+        if (_slotVm != null)
+        {
+            _slotVm.PropertyChanged -= OnSlotPropertyChanged;
+        }
     }
 }

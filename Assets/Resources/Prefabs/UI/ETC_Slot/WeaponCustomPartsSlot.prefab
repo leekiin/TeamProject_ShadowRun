@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uD30C\uCE20 \uD0C0\uC785"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 724c140c010ad194784a2c38a081c405, type: 2}
-  m_sharedMaterial: {fileID: -1453816194433201877, guid: 724c140c010ad194784a2c38a081c405, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b36ea86df1649f94a871838495454d1f, type: 2}
+  m_sharedMaterial: {fileID: 1895393191169578827, guid: b36ea86df1649f94a871838495454d1f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -32,7 +32,11 @@ public class NetworkWeaponCustomService
         {
             for (int i = 0; i < playerData.StashItems.Count; i++)
             {
-                if (i >= vm.MaxStashSlot) break;
+                if (i >= vm.MaxStashSlot)
+                {
+                    break;
+                }
+
                 var savedItem = playerData.StashItems[i];
                 var targetSlot = vm.StashSlots[i];
 
@@ -58,7 +62,10 @@ public class NetworkWeaponCustomService
 
     public void SetTargetWeapon(ItemModel weaponModel)
     {
-        if (weaponModel == null) return;
+        if (weaponModel == null)
+        {
+            return;
+        }
 
         RestoreTargetWeaponToInventory();
 
@@ -66,7 +73,6 @@ public class NetworkWeaponCustomService
         _cachedTargetWeaponModel = weaponModel;
         vm.TargetWeaponUniqueId = weaponModel.InstanceId;
         vm.TargetWeaponDataId = weaponModel.ItemId;
-
         RefreshPartsSlots();
     }
 
@@ -76,6 +82,7 @@ public class NetworkWeaponCustomService
         {
             NetworkManager.Inst.TransferService.PlaceItemSafely(_cachedTargetWeaponModel, ShopItemSlotType.Inventory);
         }
+
         ClearTargetWeapon();
     }
 
@@ -93,7 +100,10 @@ public class NetworkWeaponCustomService
         var vm = GetWeaponCustomViewModel();
         vm.PartsSlotList.Clear();
 
-        if (_cachedTargetWeaponModel == null) return;
+        if (_cachedTargetWeaponModel == null)
+        {
+            return;
+        }
 
         WeaponModel targetWeapon = _cachedTargetWeaponModel as WeaponModel;
 
@@ -157,18 +167,28 @@ public class NetworkWeaponCustomService
 
     public bool TryEquipPart(WeaponPartsSlotViewModel targetSlot, ItemModel partModel)
     {
-        if (_cachedTargetWeaponModel == null || !(_cachedTargetWeaponModel is WeaponModel targetWeapon)) return false;
+        if (_cachedTargetWeaponModel == null || !(_cachedTargetWeaponModel is WeaponModel targetWeapon))
+        {
+            return false;
+        }
 
         var partData = DataManager.Instance.GetItemData(partModel.ItemId) as WeaponPartsData;
+
         if (partData == null || partData.PartsType != targetSlot.RequiredPartsType)
         {
             Debug.LogWarning("해당 슬롯에 장착할 수 없는 부위입니다.");
             return false;
         }
 
-        if (targetWeapon.AttachedParts == null) targetWeapon.AttachedParts = new List<ItemModel>();
+        if (targetWeapon.AttachedParts == null)
+        {
+            targetWeapon.AttachedParts = new List<ItemModel>();
+        }
 
-        if (!targetSlot.IsSlotEmpty) UnequipPart(targetSlot);
+        if (!targetSlot.IsSlotEmpty)
+        {
+            UnequipPart(targetSlot);
+        }
 
         targetWeapon.AttachedParts.Add(partModel);
 
@@ -181,10 +201,18 @@ public class NetworkWeaponCustomService
 
     public void UnequipPart(WeaponPartsSlotViewModel targetSlot)
     {
-        if (targetSlot.IsSlotEmpty) return;
-        if (_cachedTargetWeaponModel == null || !(_cachedTargetWeaponModel is WeaponModel targetWeapon)) return;
+        if (targetSlot.IsSlotEmpty)
+        {
+            return;
+        }
+
+        if (_cachedTargetWeaponModel == null || !(_cachedTargetWeaponModel is WeaponModel targetWeapon))
+        {
+            return;
+        }
 
         ItemModel removedPart = null;
+
         for (int i = 0; i < targetWeapon.AttachedParts.Count; i++)
         {
             if (targetWeapon.AttachedParts[i].InstanceId == targetSlot.ItemUniqueId)

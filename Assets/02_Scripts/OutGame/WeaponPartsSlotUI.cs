@@ -46,7 +46,10 @@ public class WeaponPartsSlotUI : UIBase, IPointerEnterHandler, IPointerExitHandl
 
     private void UpdateSlotUI()
     {
-        if (DataManager.Instance == null || Image_ItemIcon == null) return;
+        if (DataManager.Instance == null || Image_ItemIcon == null)
+        {
+            return;
+        }
 
         if (_slotVm.IsSlotEmpty)
         {
@@ -56,6 +59,7 @@ public class WeaponPartsSlotUI : UIBase, IPointerEnterHandler, IPointerExitHandl
 
         Image_ItemIcon.enabled = true;
         var itemData = DataManager.Instance.GetItemData(_slotVm.ItemDataId);
+
         if (itemData != null)
         {
             Image_ItemIcon.sprite = ItemIconLoader.LoadIcon(itemData);
@@ -82,6 +86,9 @@ public class WeaponPartsSlotUI : UIBase, IPointerEnterHandler, IPointerExitHandl
 
     private void OnDestroy()
     {
-        if (_slotVm != null) _slotVm.PropertyChanged -= OnSlotPropertyChanged;
+        if (_slotVm != null)
+        {
+            _slotVm.PropertyChanged -= OnSlotPropertyChanged;
+        }
     }
 }

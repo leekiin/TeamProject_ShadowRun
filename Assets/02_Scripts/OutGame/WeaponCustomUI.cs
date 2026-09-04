@@ -60,10 +60,12 @@ public class WeaponCustomUI : UIBase
             _customVm.HoveredItemId = null;
             _customVm.PropertyChanged -= OnPropChanged_View;
         }
+
         if (InventoryManager.Instance != null)
         {
             InventoryManager.Instance.OnInventoryChanged -= RefreshInventoryUI;
         }
+
         if (UIManager.Instance != null)
         {
             UIManager.Instance.ClosePopupUI(UIType.ShopItemPopupUI);
@@ -96,9 +98,13 @@ public class WeaponCustomUI : UIBase
             DragSlotUI = Instantiate(Prefab_StashItemSlotUI, this.transform);
             DragSlotUI.gameObject.name = "DragSlotUI_WeaponCustom";
             DragSlotUI.gameObject.SetActive(false);
-
             CanvasGroup canvasGroup = DragSlotUI.gameObject.GetComponent<CanvasGroup>();
-            if (canvasGroup == null) canvasGroup = DragSlotUI.gameObject.AddComponent<CanvasGroup>();
+
+            if (canvasGroup == null)
+            {
+                canvasGroup = DragSlotUI.gameObject.AddComponent<CanvasGroup>();
+            }
+
             canvasGroup.blocksRaycasts = false;
             canvasGroup.interactable = false;
         }
@@ -135,7 +141,10 @@ public class WeaponCustomUI : UIBase
 
     private void RefreshInventoryUI()
     {
-        if (_customVm == null || InventoryManager.Instance == null) return;
+        if (_customVm == null || InventoryManager.Instance == null)
+        {
+            return;
+        }
 
         var allItems = InventoryManager.Instance.ItemList;
         var filteredItems = new List<ItemModel>();
@@ -171,15 +180,24 @@ public class WeaponCustomUI : UIBase
 
     private void RefreshStashUI()
     {
-        if (_customVm == null || PlayerStatus.Instance == null || PlayerStatus.Instance.Model == null) return;
+        if (_customVm == null || PlayerStatus.Instance == null || PlayerStatus.Instance.Model == null)
+        {
+            return;
+        }
+
         var stashItems = PlayerStatus.Instance.Model.StashItems;
-        if (stashItems == null) stashItems = new List<ItemModel>();
+
+        if (stashItems == null)
+        {
+            stashItems = new List<ItemModel>();
+        }
 
         var filteredItems = new List<ItemModel>();
 
         foreach (var item in stashItems)
         {
             var itemData = DataManager.Instance.GetItemData(item.ItemId);
+
             if (itemData != null && (itemData.ItemType == "Weapon" || itemData is WeaponPartsData))
             {
                 filteredItems.Add(item);
@@ -210,7 +228,10 @@ public class WeaponCustomUI : UIBase
     {
         foreach (var slot in _spawnedPartsSlotUIList)
         {
-            if (slot != null) Destroy(slot.gameObject);
+            if (slot != null)
+            {
+                Destroy(slot.gameObject);
+            }
         }
         _spawnedPartsSlotUIList.Clear();
 
@@ -239,6 +260,7 @@ public class WeaponCustomUI : UIBase
                 {
                     UIManager.Instance.ClosePopupUI(UIType.ShopItemPopupUI);
                 }
+
                 break;
         }
     }
@@ -262,7 +284,10 @@ public class WeaponCustomUI : UIBase
 
     private void OnClick_LeftSlot(StashItemSlotViewModel clickedSlotVm, PointerEventData.InputButton button)
     {
-        if (button != PointerEventData.InputButton.Left) return;
+        if (button != PointerEventData.InputButton.Left)
+        {
+            return;
+        }
 
         if (_cachedHoldingItemModel == null && !clickedSlotVm.IsSlotEmpty)
         {
@@ -320,12 +345,18 @@ public class WeaponCustomUI : UIBase
 
     private void OnClick_RightPartSlot(WeaponPartsSlotViewModel clickedSlotVm, PointerEventData.InputButton button)
     {
-        if (button != PointerEventData.InputButton.Left) return;
+        if (button != PointerEventData.InputButton.Left)
+        {
+            return;
+        }
 
         if (_cachedHoldingItemModel != null)
         {
             bool success = NetworkManager.Inst.WeaponCustomService.TryEquipPart(clickedSlotVm, _cachedHoldingItemModel);
-            if (success) ClearCursorItem();
+            if (success)
+            {
+                ClearCursorItem();
+            }
         }
         else if (_cachedHoldingItemModel == null && !clickedSlotVm.IsSlotEmpty)
         {
@@ -356,8 +387,14 @@ public class WeaponCustomUI : UIBase
 
             NetworkManager.Inst.WeaponCustomService.SyncDataOnClose();
 
-            if (Lobby.Instance != null) Lobby.Instance.CloseCurrentTargetUI();
-            else UIManager.Instance.CloseContentUI(UIType.WeaponCustomUI);
+            if (Lobby.Instance != null)
+            {
+                Lobby.Instance.CloseCurrentTargetUI();
+            }
+            else
+            {
+                UIManager.Instance.CloseContentUI(UIType.WeaponCustomUI);
+            }
         }
         catch (System.Exception e)
         {
